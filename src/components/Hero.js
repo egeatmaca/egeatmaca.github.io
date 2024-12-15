@@ -1,4 +1,5 @@
 import './Hero.css';
+import NetworkGraph from './NetworkGraph';
 
 function Hero() {
     return (
@@ -8,6 +9,7 @@ function Hero() {
         <div>
           I build Data / ML products tailored for domain-specific applications.
         </div>
+        <NetworkGraph/>
       </div>
     );
   }
