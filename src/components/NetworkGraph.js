@@ -15,11 +15,11 @@ const NetworkGraph = () => {
         { id: "Business Intelligence", group: 1 },
         { id: "Machine Learning", group: 1 },
         { id: "NLP", group: 1 },
-        { id: "Software Development", group: 1 },
-        { id: "Domain Knowledge", group: 2 },
-        { id: "Product", group: 2 },
-        { id: "Marketing", group: 2 },
-        { id: "Operations", group: 2 },
+        { id: "Software Development", group: 2 },
+        { id: "Domain Knowledge", group: 3 },
+        { id: "Product", group: 3 },
+        { id: "Marketing", group: 3 },
+        { id: "Operations", group: 3 },
       ],
       links: [
         { source: "I'm here!", target: "Data Science" },
@@ -28,11 +28,12 @@ const NetworkGraph = () => {
         { source: "Data Science", target: "Machine Learning" },
         { source: "Data Science", target: "Business Intelligence" },
         { source: "Data Science", target: "Domain Knowledge" },
-        { source: "Data Science", target: "Software Development" },
         { source: "Machine Learning", target: "NLP" },
         { source: "Domain Knowledge", target: "Product" },
         { source: "Domain Knowledge", target: "Marketing" },
-        { source: "Domain Knowledge", target: "Operations" }
+        { source: "Domain Knowledge", target: "Operations" },
+        { source: "Machine Learning", target: "Software Development" },
+        { source: "Business Intelligence", target: "Software Development" },
       ]
     };
 
