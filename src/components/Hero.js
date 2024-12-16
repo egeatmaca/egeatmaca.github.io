@@ -7,7 +7,7 @@ function Hero() {
         <h3>Hi, I’m</h3>
         <h1>Ege</h1>
         <div>
-          I build Data / ML products tailored for domain-specific applications.
+          I build data / ml products driving business value.
         </div>
         <NetworkGraph/>
       </div>
