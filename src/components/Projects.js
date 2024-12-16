@@ -1,13 +1,6 @@
 import './Projects.css';
 
 function Projects() {
-    // <img
-    // src="/src/img/xyz.jpg"
-    // width="100%"
-    // alt="XYZ screenshot"
-    // loading="lazy"
-    // style="aspect-ratio: 2500 / 1500"
-    // />
     return (
         <section>
             <h1 id="projects">Projects</h1>

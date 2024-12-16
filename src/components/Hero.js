@@ -3,7 +3,7 @@ import NetworkGraph from './NetworkGraph';
 
 function Hero() {
     return (
-      <div id="hero">
+      <div id="home" class='hero'>
         <h3>Hi , I’m</h3>
         <h1>Ege</h1>
         <div>

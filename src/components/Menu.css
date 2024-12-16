@@ -75,10 +75,10 @@ html[data-scroll="true"] nav .btn {
 
 nav.menu-open .btn {
     box-shadow: 6px 6px 0px rgba(1, 162, 81, 0.25);
-    background-color: #0C0C0C;
-    color: #01a252;
-    fill: #01a252;
-    border-color: #01a252;
+    background-color: #01a252; 
+    color: #300a24;
+    fill: #300a24;
+    border-color: #300a24;
     opacity: 1 !important;
     pointer-events: all !important;
 }
@@ -92,8 +92,8 @@ nav.menu-open .btn:active {
 }
 
 .menu-body {
-    background-color: #01a252;
-    color: #0C0C0C;
+    background-color: rgb(48, 10, 36, 0.9);
+    color: #01a252;
     font-size: 2em;
     font-family: "public-pixel", monospace;
     text-decoration: none !important;
