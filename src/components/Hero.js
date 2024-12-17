@@ -7,7 +7,7 @@ function Hero() {
         <h3>Hi, I’m</h3>
         <h1>Ege</h1>
         <div>
-          I build data / ml products driving business value.
+          I build data / ml solutions driving actions for business value.
         </div>
         <NetworkGraph/>
       </div>
@@ -15,4 +15,3 @@ function Hero() {
   }
   
   export default Hero;
-  

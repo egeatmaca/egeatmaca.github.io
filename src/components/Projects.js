@@ -15,13 +15,13 @@ function Projects() {
                 Lorem ipsum. Lorem ipsum. Lorem ipsum.
             </p>
             <br />
-            <div className="image">
-            <img
-                src="/src/img/xyz.jpg"
-                width="100%"
-                alt="XYZ screenshot"
-                loading="lazy"
-            />
+            <div className="screenshot">
+                <img
+                    src="/src/images/xyz.jpg"
+                    width="100%"
+                    alt="XYZ screenshot"
+                    loading="lazy"
+                />
             </div>
             <hr />
         </section>
