@@ -30,7 +30,7 @@ function Projects() {
                 The returns were still significantly higher than the buy & hold approach yielding 132.74% return.
                 <br/>(RMSE: 0.0105, R2: 40%, Direction Accuracy: 75%)
             </p>
-            <p><a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank">Source Code</a></p>
+            <p><a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank" rel="noreferrer">Source Code</a></p>
             <br />
             <b>Validation: 21/01/2022 - 29/06/2023</b>
             <div className="screenshot">
@@ -79,7 +79,7 @@ function Projects() {
             <p>
                 Currently, it can answer questions in 36 different topics about contract termination and deposit with 95% accuracy.
             </p>
-            <p><a href="https://github.com/egeatmaca/Legalpha" target="__blank">Source Code</a></p>
+            <p><a href="https://github.com/egeatmaca/Legalpha" target="__blank" rel="noreferrer">Source Code</a></p>
             <br />
             <div className="screenshot">
                 <img
@@ -110,7 +110,7 @@ function Projects() {
                 It translates the database schema and user questions to SQL queries using the ChatGPT API.
                 And then brings the results from your database.
             </p>
-            <p><a href="https://github.com/egeatmaca/AskTheDB" target="__blank">Source Code</a></p>
+            <p><a href="https://github.com/egeatmaca/AskTheDB" target="__blank" rel="noreferrer">Source Code</a></p>
             <br />
             <div className="screenshot">
                 <img
