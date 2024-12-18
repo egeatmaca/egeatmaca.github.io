@@ -2,8 +2,7 @@ import './Projects.css';
 import stockPriceValidation from '../images/projects/stock-price-validation.png';
 import stockPriceBacktest from '../images/projects/stock-price-backtest.png';
 import legalpha from '../images/projects/legalpha.png';
-import askTheDB1 from '../images/projects/ask-the-db-1.png';
-import askTheDB2 from '../images/projects/ask-the-db-2.png';
+import askTheDB from '../images/projects/ask-the-db.png';
 
 function Projects() {
     return (
@@ -21,15 +20,17 @@ function Projects() {
             </ul>
             <p>
                 In this project, I built a time series model to predict the AAPL stock prices. 
-                I tested three different approaches, namely ARIMA, LSTMs and Transformers. 
+                Three different approaches, namely ARIMA, LSTMs and transformers, were tested.
             </p>
             <p>
-                The transformer model yielded the best returns with 614.92% on the validation data. 
-                <br/>(RMSE: 0.0159, Direction Accuracy: 72%)
+                Out of the three approaches listed above, the transformer model yielded the best return with 614.92% on the validation data, 
+                while a buy and hold strategy was bringing 119.69% return.
+                <br/>(RMSE: 0.0159, R2: 38%, Direction Accuracy: 72%)
             </p>
             <p>
-                After retraining with the new data, this model maintained its performance with 465.45% in the backtest period as well. 
-                <br/>(RMSE: 0.0105, Direction Accuracy: 75%)
+                After retraining with new data, this model maintained its performance with 465.45% return in the backtest period as well.
+                The returns were still significantly higher than the buy & hold approach yielding 132.74% return.
+                <br/>(RMSE: 0.0105, R2: 40%, Direction Accuracy: 75%)
             </p>
             <p><a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank">Source Code</a></p>
             <br />
@@ -59,12 +60,27 @@ function Projects() {
                 <li>Python</li>
                 <li>Tensorflow</li>
                 <li>FastAPI</li>
+                <li>Javascript</li>
                 <li>Docker</li>
             </ul>
             <p>
-                Lorem ipsum. Lorem ipsum. Lorem ipsum.<br/>
-                <p><a href="https://github.com/egeatmaca/Legalpha" target="__blank">Source Code</a></p>
+                For equal rights everyone should have equal access to legal information. 
+                However, laws are always encrypted in some mysterious language, especially if you are living in a foreign country.
             </p>
+            <p>
+                This is why I developed Legalpha. A Q&A chatbot answering questions about German tenancy law in an easy to digest language.
+            </p>
+            <p>
+                For this purpose, I used a good old intent classifier leveraging BERT sentence embeddings as inputs. 
+                No GenAI or hallucinations are involved. 
+                After classifying your intent, Legalpha replies with as many references as possible to the actual legal paragraphs.
+                So, you can double-check the information it provides.
+                It's built to be as reliable as possible considering the application challenges of ML in the legal space.
+            </p>
+            <p>
+                Currently, it can answer questions in 36 different topics about contract termination and deposit with 95% accuracy.
+            </p>
+            <p><a href="https://github.com/egeatmaca/Legalpha" target="__blank">Source Code</a></p>
             <br />
             <div className="screenshot">
                 <img
@@ -84,19 +100,21 @@ function Projects() {
                 <li>Docker</li>
             </ul>
             <p>
-                Lorem ipsum. Lorem ipsum. Lorem ipsum.<br/>
-                <p><a href="https://github.com/egeatmaca/AskTheDB" target="__blank">Source Code</a></p>
+                To leverage data analytics in an organization fully, we should engage domain experts in analytics processes as well. 
+                Using their domain knowledge, they can ask pretty good questions to data. 
+                These questions often lead to valuable and actionable insights. 
+                However, most domain experts don't have the technical skills to interact with data and get the answers.
             </p>
+            <p>
+                AskTheDB enables users to ask questions in natural language and get results from their databases. 
+                It translates the database schema and user questions to SQL queries using the ChatGPT API.
+                And then brings the results from your database.
+            </p>
+            <p><a href="https://github.com/egeatmaca/AskTheDB" target="__blank">Source Code</a></p>
             <br />
             <div className="screenshot">
                 <img
-                    src={askTheDB1}
-                    width="100%"
-                    alt="AskTheDB Screenshot 1"
-                    loading="lazy"
-                />
-                <img
-                    src={askTheDB2}
+                    src={askTheDB}
                     width="100%"
                     alt="AskTheDB Screenshot 2"
                     loading="lazy"
