@@ -23,7 +23,7 @@ function About() {
           In addition to my love of data science, I am also interested in philosophy, psychology and quantitative investment.
         </p>
         <p>
-          Below are details of some open-source projects I have developed over the last years.
+          Below are some open-source projects I've developed over the last years. You can also find some Medium articles from me in the end. 
         </p>
       </section>
     );

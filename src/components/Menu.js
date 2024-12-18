@@ -19,7 +19,6 @@ function Menu({ menuOpen, setMenuOpen }) {
             className="btn social-btn"
             href="https://www.linkedin.com/in/ege-atmaca/"
             target="_blank"
-            rel="noreferrer"
           >
             <svg width="16" height="16">
               <path
