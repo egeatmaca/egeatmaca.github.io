@@ -70,8 +70,8 @@ function Projects() {
                 This is why I developed Legalpha. A Q&A chatbot answering questions about German tenancy law in an easy to digest language.
             </p>
             <p>
-                For this purpose, I used a good old intent classifier leveraging BERT sentence embeddings as inputs. 
-                No GenAI or hallucinations are involved. 
+                For this purpose, I trained a good old intent classifier leveraging BERT sentence embeddings as inputs. 
+                (No GenAI or hallucinations are involved.)
                 After classifying your intent, Legalpha replies with as many references as possible to the actual legal paragraphs.
                 So, you can double-check the information it provides.
                 It's built to be as reliable as possible considering the application challenges of ML in the legal space.
@@ -100,7 +100,7 @@ function Projects() {
                 <li>Docker</li>
             </ul>
             <p>
-                To leverage data analytics in an organization fully, we should engage domain experts in analytics processes as well. 
+                To leverage data analytics in an organization fully, we should engage domain experts in analytical processes as well. 
                 Using their domain knowledge, they can ask pretty good questions to data. 
                 These questions often lead to valuable and actionable insights. 
                 However, most domain experts don't have the technical skills to interact with data and get the answers.
