@@ -7,9 +7,9 @@ function About() {
         <h1>Hi there!</h1>
         <div class="profile">
           <img
-              src={profilePic}
-              alt="Profile"
-              loading="lazy"
+            src={profilePic}
+            alt="Profile"
+            loading="lazy"
           />
         </div>
         <p>
@@ -20,7 +20,7 @@ function About() {
           My superpowers are customer analytics and developing domain-specific machine learning applications.
         </p>
         <p>
-          In addition to my love of data science, I am also interested in philosophy, psychology, mindfulness and quantitative investment.
+          In addition to my love of data science, I am also interested in philosophy, psychology, mindfulness, social entrepreneurship and quantitative investment.
         </p>
         <p>
           Below are some open-source projects I've developed over the last years. You can also find some Medium articles from me in the end. 

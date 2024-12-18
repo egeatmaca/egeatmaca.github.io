@@ -8,7 +8,7 @@ function Projects() {
     return (
         <section id="projects">
             <h1>Projects</h1>
-            <hr />
+            <hr/>
             <h2>Stock Price Prediction</h2>
             <ul className="skills">
                 <li>Time Series Forecasting</li>
@@ -120,7 +120,6 @@ function Projects() {
                     loading="lazy"
                 />
             </div>
-            <hr />
         </section>
     );
 }
