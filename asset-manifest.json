@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c74ef904.css",
+    "main.js": "/static/js/main.07a48004.js",
+    "static/js/488.f1ad4097.chunk.js": "/static/js/488.f1ad4097.chunk.js",
+    "static/media/profile.png": "/static/media/profile.436307609ce838e4e33b.png",
+    "static/media/legalpha.png": "/static/media/legalpha.c4736b3bf8d0dbc45afc.png",
+    "static/media/stock-price-validation.png": "/static/media/stock-price-validation.1ee970d7ae81c3e6e0c8.png",
+    "static/media/stock-price-backtest.png": "/static/media/stock-price-backtest.40b4840f5247de402616.png",
+    "static/media/ask-the-db.png": "/static/media/ask-the-db.663aa000cf1c55ab28db.png",
+    "static/media/chill.woff": "/static/media/chill.95884d893f1b6fd17060.woff",
+    "static/media/public-pixel.woff": "/static/media/public-pixel.585f372bbc1ee114c102.woff",
+    "index.html": "/index.html",
+    "main.c74ef904.css.map": "/static/css/main.c74ef904.css.map",
+    "main.07a48004.js.map": "/static/js/main.07a48004.js.map",
+    "488.f1ad4097.chunk.js.map": "/static/js/488.f1ad4097.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74ef904.css",
+    "static/js/main.07a48004.js"
+  ]
+}
