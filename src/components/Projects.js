@@ -11,12 +11,10 @@ function Projects() {
             <hr />
             <h2>Stock Price Prediction</h2>
             <ul className="skills">
+                <li>Time Series Forecasting</li>
                 <li>Python</li>
                 <li>PyTorch</li>
                 <li>StatsModels</li>
-                <li>ARIMA</li>
-                <li>LSTM</li>
-                <li>Transformers</li>
             </ul>
             <p>
                 In this project, I built a time series model to predict the AAPL stock prices. 
@@ -57,6 +55,7 @@ function Projects() {
             <hr />
             <h2>Legalpha</h2>
             <ul className="skills">
+                <li>Text Classification</li>
                 <li>Python</li>
                 <li>Tensorflow</li>
                 <li>FastAPI</li>
@@ -93,6 +92,7 @@ function Projects() {
             <hr />
             <h2>AskTheDB</h2>
             <ul className="skills">
+                <li>GenAI</li>
                 <li>Python</li>
                 <li>LangChain</li>
                 <li>Streamlit</li>
@@ -116,7 +116,7 @@ function Projects() {
                 <img
                     src={askTheDB}
                     width="100%"
-                    alt="AskTheDB Screenshot 2"
+                    alt="AskTheDB Screenshot"
                     loading="lazy"
                 />
             </div>
