@@ -2,8 +2,8 @@ import './Projects.css';
 
 function Projects() {
     return (
-        <section>
-            <h1 id="projects">Projects</h1>
+        <section id="projects">
+            <h1>Projects</h1>
             <hr />
             <h2>XYZ</h2>
             <ul className="skills">

@@ -3,8 +3,8 @@ import profilePic from '../images/profile.png'
 
 function About() {
     return (
-      <section>
-        <h1 id="aboutMe">Hi there!</h1>
+      <section id="about">
+        <h1>Hi there!</h1>
         <div class="profile">
           <img
               src={profilePic}
@@ -14,13 +14,13 @@ function About() {
         </div>
         <p>
           My name is Ege Atmaca, I'm a passionate data scientist with a highly solution-oriented mindset. 
-          I like to build data products solving the business problems in the best possible way.
+          I like to build data products that solve business problems in the most effective way.
         </p>
         <p>
           My superpowers are customer analytics and developing domain-specific machine learning applications.
         </p>
         <p>
-          In addition to my love of data science, I am also interested in philosophy, psychology, quantitative investment and music production.
+          In addition to my love of data science, I am also interested in philosophy, psychology and quantitative investment.
         </p>
         <p>
           Below are details of some open-source projects I have developed over the last years.

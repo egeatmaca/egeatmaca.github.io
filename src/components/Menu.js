@@ -19,6 +19,7 @@ function Menu({ menuOpen, setMenuOpen }) {
             className="btn social-btn"
             href="https://www.linkedin.com/in/ege-atmaca/"
             target="_blank"
+            rel="noreferrer"
           >
             <svg width="16" height="16">
               <path
@@ -36,8 +37,9 @@ function Menu({ menuOpen, setMenuOpen }) {
 
       <div className="menu-body" onClick={() => setMenuOpen(false)}>
         <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
-        <a href="#aboutMe" onClick={() => setMenuOpen(false)}>About</a>
+        <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
         <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+        <a href="#articles" onClick={() => setMenuOpen(false)}>Articles</a>
         <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
       </div>
 

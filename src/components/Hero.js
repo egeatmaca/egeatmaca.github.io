@@ -7,11 +7,11 @@ function Hero() {
         <h3>Hi, I’m</h3>
         <h1>Ege</h1>
         <div>
-          I build data / ml solutions driving actions for business value.
+          I build data / ml solutions driving valuable insights & actions.
         </div>
         <NetworkGraph/>
       </div>
     );
   }
   
-  export default Hero;
+export default Hero;

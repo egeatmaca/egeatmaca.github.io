@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Menu from './components/Menu.js';
-import Hero from './components/Hero.js';
-import About from './components/About.js';
-import Projects from './components/Projects.js';
-import Contact from './components/Contact.js';
-import Footer from './components/Footer.js';
+import { Menu, Hero, About, Projects, Articles, Contact, Footer } from './components';
 
 
 function App() {
@@ -40,6 +35,7 @@ function App() {
       <main>
         <About/>
         <Projects/>
+        <Articles/>
         <Contact/>
       </main>
       <Footer/>

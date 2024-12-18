@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import * as d3 from "d3";
 
 
@@ -6,7 +6,6 @@ const NetworkGraph = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    // Example dataset
     const data = {
       nodes: [
         { id: "I'm here!", group: 0 },
@@ -71,7 +70,6 @@ const NetworkGraph = () => {
     function drawNode(node) {
       context.beginPath();
       context.arc(node.x, node.y, 14, 0, 2 * Math.PI);
-      console.log(node.group);
       const color_from_scheme = color(node.group);
       context.fillStyle = node.group === 0 ? '#01a252' : color_from_scheme;
       context.fill();
