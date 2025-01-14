@@ -13,14 +13,14 @@ function About() {
           />
         </div>
         <p>
-          My name is Ege Atmaca, I'm a passionate data scientist with a highly solution-oriented mindset. 
+          My name is Ege Atmaca, I'm a passionate data science enthusiast with a solution-oriented mindset.
           I like to build data products that solve business problems in the most effective way.
         </p>
         <p>
-          My superpowers are customer analytics and developing domain-specific machine learning applications.
+          I'm mostly focused on customer analytics, NLP and developing domain-specific machine learning applications.
         </p>
         <p>
-          In addition to my love of data science, I am also interested in philosophy, psychology, mindfulness and quant finance.
+          In addition to my love of data science, I am also interested in philosophy, psychology, behavioral science & mindfulness.
         </p>
         <p>
           Below are some open-source projects I've developed over the last years. You can also find some Medium articles from me in the end. 

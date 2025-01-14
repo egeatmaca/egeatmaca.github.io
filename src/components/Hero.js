@@ -7,7 +7,7 @@ function Hero() {
         <h3>Hi, I’m</h3>
         <h1>Ege</h1>
         <div>
-          I build data / ml solutions that drive actionable insights to create value.
+          I build data / ml solutions to drive actionable insights.
         </div>
         <NetworkGraph/>
       </div>
