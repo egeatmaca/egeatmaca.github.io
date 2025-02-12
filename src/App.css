@@ -10,6 +10,10 @@
   font-family: chill;
   src: url("./fonts/chill.woff");
 }
+@font-face {
+  font-family: jetbrains-mono;
+  src: url("./fonts/JetBrainsMono-Regular.woff2");
+}
 
 * {
   margin: 0;
@@ -20,7 +24,7 @@ html,
 body {
   overflow-x: hidden;
   background-color: #0C0C0C;
-  font-family: "chill", sans-serif;
+  font-family: "jetbrains-mono", monospace;
   font-size: 18px;
   -webkit-text-size-adjust: 100%;
 }

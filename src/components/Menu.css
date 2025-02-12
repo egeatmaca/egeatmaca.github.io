@@ -23,7 +23,7 @@ nav {
 
 .btn {
     position: relative;
-    font-family: "chill", sans-serif;
+    font-family: "jetbrains-mono", monospace;
     font-size: 18px;
     display: inline-flex;
     gap: 0.25rem;
@@ -133,7 +133,7 @@ nav.menu-open .menu-body {
     bottom: 16px;
     left: 50%;
     transform: translateX(-50%);
-    font-family: "chill", sans-serif;
+    font-family: "public-pixel", monospace;
     font-size: 14px;
     box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.75);
     background-color: #01a252;

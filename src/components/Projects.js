@@ -12,7 +12,6 @@ function Projects() {
             <h2>Stock Price Prediction</h2>
             <ul className="skills">
                 <li>Time Series Forecasting</li>
-                <li>Python</li>
                 <li>PyTorch</li>
                 <li>StatsModels</li>
             </ul>
@@ -33,7 +32,7 @@ function Projects() {
             <p>
                 * This is not a trading advice. For demo purposes only.
             </p>
-            <p><a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank" rel="noreferrer">Source Code</a></p>
+            <p><a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank" rel="noreferrer" class="source-code">Source Code</a></p>
             <br />
             <b>Validation: 21/01/2022 - 29/06/2023</b>
             <div className="screenshot">
@@ -59,11 +58,8 @@ function Projects() {
             <h2>Legalpha</h2>
             <ul className="skills">
                 <li>Text Classification</li>
-                <li>Python</li>
                 <li>Tensorflow</li>
                 <li>FastAPI</li>
-                <li>Javascript</li>
-                <li>Docker</li>
             </ul>
             <p>
                 For equal rights everyone should have equal access to legal information. 
@@ -96,11 +92,9 @@ function Projects() {
             <h2>AskTheDB</h2>
             <ul className="skills">
                 <li>GenAI</li>
-                <li>Python</li>
                 <li>LangChain</li>
                 <li>Streamlit</li>
                 <li>SQLAlchemy</li>
-                <li>Docker</li>
             </ul>
             <p>
                 To leverage data analytics in an organization fully, we should engage domain experts in analytical processes as well. 
