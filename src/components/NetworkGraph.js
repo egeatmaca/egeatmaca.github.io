@@ -7,28 +7,39 @@ const NetworkGraph = () => {
 
   useEffect(() => {
     const data = {
+      // nodes: [
+      //   { id: "I'm here!", group: 0, fx: 300, fy: 275 },
+      //   { id: "Data Science & Analytics", group: 1, fx: 300, fy: 350 },
+      //   { id: "Data Analysis", group: 1, fx: 100, fy: 400 },
+      //   { id: "Statistical Inference", group: 1, fx: 400, fy: 400  },
+      //   { id: "Machine Learning", group: 1, fx: 200, fy: 450 },
+      //   { id: "NLP", group: 1, fx: 100, fy: 500 }, 
+      //   { id: "Python | SQL | Tableau", group: 1, fx: 300, fy: 500 },
+      //   { id: "Domain Knowledge", group: 3, fx: 300, fy: 200 },
+      //   { id: "Marketing", group: 3, fx: 200, fy: 150 },
+      //   { id: "Operations", group: 3, fx: 400, fy: 150 },
+      //   { id: "Product", group: 3, fx: 300, fy: 100 },
+      // ],
       nodes: [
-        { id: "I'm here!", group: 0, fx: 300, fy: 275 },
-        { id: "Data Science & Analytics", group: 1, fx: 300, fy: 350 },
-        { id: "Data Analysis", group: 1, fx: 100, fy: 400 },
-        { id: "Statistical Inference", group: 1, fx: 400, fy: 400  },
-        { id: "Business Intelligence", group: 1, fx: 400, fy: 450 },
-        { id: "Machine Learning", group: 1, fx: 200, fy: 450 },
-        { id: "NLP", group: 1, fx: 100, fy: 500 }, 
-        { id: "Software Development", group: 1, fx: 300, fy: 500 },
-        { id: "Domain Knowledge", group: 3, fx: 300, fy: 200 },
-        { id: "Marketing", group: 3, fx: 200, fy: 150 },
-        { id: "Operations", group: 3, fx: 400, fy: 150 },
-        { id: "Product", group: 3, fx: 300, fy: 100 },
+        { id: "I'm here!", group: 0 },
+        { id: "Data Science", group: 1 },
+        { id: "Data Analysis", group: 1 },
+        { id: "Statistical Inference", group: 1  },
+        { id: "Machine Learning", group: 1 },
+        { id: "NLP", group: 1 }, 
+        { id: "Python | SQL | Tableau", group: 1 },
+        { id: "Domain Knowledge", group: 3 },
+        { id: "Marketing", group: 3 },
+        { id: "Operations", group: 3 },
+        { id: "Product", group: 3 },
       ],
       links: [
-        { source: "I'm here!", target: "Data Science & Analytics" },
+        { source: "I'm here!", target: "Data Science" },
         { source: "I'm here!", target: "Domain Knowledge" },
-        { source: "Data Science & Analytics", target: "Data Analysis" },
-        { source: "Data Science & Analytics", target: "Statistical Inference" },
-        { source: "Data Science & Analytics", target: "Machine Learning" },
-        { source: "Data Science & Analytics", target: "Business Intelligence" },
-        { source: "Data Science & Analytics", target: "Software Development" },
+        { source: "Data Science", target: "Data Analysis" },
+        { source: "Data Science", target: "Statistical Inference" },
+        { source: "Data Science", target: "Machine Learning" },
+        { source: "Data Science", target: "Python | SQL | Tableau" },
         { source: "Machine Learning", target: "NLP" },
         { source: "Domain Knowledge", target: "Product" },
         { source: "Domain Knowledge", target: "Marketing" },
@@ -45,8 +56,8 @@ const NetworkGraph = () => {
 
     const simulation = d3.forceSimulation(data.nodes)
       .force("link", d3.forceLink(data.links).id(d => d.id).distance(d => d.distance || 100))
-      // .force("charge", d3.forceManyBody().strength(-300))
-      // .force("center", d3.forceCenter(width / 2, height / 2))
+      .force("charge", d3.forceManyBody().strength(-300))
+      .force("center", d3.forceCenter(width / 2, height / 2))
       .on("tick", ticked);
 
     function ticked() {
