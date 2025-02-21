@@ -7,19 +7,6 @@ const NetworkGraph = () => {
 
   useEffect(() => {
     const data = {
-      // nodes: [
-      //   { id: "I'm here!", group: 0, fx: 300, fy: 275 },
-      //   { id: "Data Science & Analytics", group: 1, fx: 300, fy: 350 },
-      //   { id: "Data Analysis", group: 1, fx: 100, fy: 400 },
-      //   { id: "Statistical Inference", group: 1, fx: 400, fy: 400  },
-      //   { id: "Machine Learning", group: 1, fx: 200, fy: 450 },
-      //   { id: "NLP", group: 1, fx: 100, fy: 500 }, 
-      //   { id: "Python | SQL | Tableau", group: 1, fx: 300, fy: 500 },
-      //   { id: "Domain Knowledge", group: 3, fx: 300, fy: 200 },
-      //   { id: "Marketing", group: 3, fx: 200, fy: 150 },
-      //   { id: "Operations", group: 3, fx: 400, fy: 150 },
-      //   { id: "Product", group: 3, fx: 300, fy: 100 },
-      // ],
       nodes: [
         { id: "I'm here!", group: 0 },
         { id: "Data Science", group: 1 },
@@ -31,7 +18,7 @@ const NetworkGraph = () => {
         { id: "Domain Knowledge", group: 3 },
         { id: "Marketing", group: 3 },
         { id: "Operations", group: 3 },
-        { id: "Product", group: 3 },
+        { id: "Product", group: 3 }
       ],
       links: [
         { source: "I'm here!", target: "Data Science" },

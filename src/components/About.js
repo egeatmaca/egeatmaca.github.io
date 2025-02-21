@@ -20,7 +20,7 @@ function About() {
           I'm mostly focused on customer analytics, NLP and developing domain-specific machine learning applications.
         </p>
         <p>
-          In addition to my love of data science, I am also interested in philosophy, psychology, behavioral science & mindfulness.
+          In addition to my love of data science, I am also interested in philosophy, psychology & mindfulness.
         </p>
         <p>
           Below are some open-source projects I've developed over the last years. You can also find some Medium articles from me in the end. 

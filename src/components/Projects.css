@@ -46,3 +46,25 @@ p {
 .screenshot img.chart {
   aspect-ratio: 15 / 5;
 }
+
+.details-btn {
+  float: right;
+}
+
+.details-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 0px #0C0C0C, 4px 4px 0px rgba(19, 161, 14, 0.25);
+}
+
+.details-btn:active {
+  transform: scale(1);
+  box-shadow: 1px 1px 0px #0C0C0C, 3px 3px 0px rgba(82, 82, 82, 0.4);
+}
+
+.source-code {
+  float: left;
+}
+
+.project-summary {
+  text-align: center;
+}
