@@ -49,6 +49,12 @@ p {
 
 .details-btn {
   float: right;
+  color: inherit;
+  font-size: 18px;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  cursor: pointer;
 }
 
 .details-btn:hover {

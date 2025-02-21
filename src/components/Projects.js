@@ -46,9 +46,9 @@ function Projects() {
             }
             <p>
                 <a href="https://github.com/egeatmaca/stock_price_prediction" target="__blank" rel="noreferrer" class="source-code">Source Code</a>
-                <a className="details-btn" onClick={()=>setShowStockPrice(!showStockPrice)}>
+                <button className="details-btn" onClick={()=>setShowStockPrice(!showStockPrice)}>
                     {showStockPrice ? "^ Details" : "> Details"}
-                </a>
+                </button>
             </p>
             <br/><br/>
             <b>Validation: 21/01/2022 - 29/06/2023</b>
@@ -104,9 +104,9 @@ function Projects() {
             }
             <p>
                 <a href="https://github.com/egeatmaca/Legalpha" target="__blank" rel="noreferrer">Source Code</a>
-                <a className="details-btn" onClick={()=>setShowLegalpha(!showLegalpha)}>
+                <button className="details-btn" onClick={()=>setShowLegalpha(!showLegalpha)}>
                     {showLegalpha ? "^ Details" : "> Details"}
-                </a>
+                </button>
             </p>
             <br />
             <div className="screenshot">
@@ -145,9 +145,9 @@ function Projects() {
             }
             <p>
                 <a href="https://github.com/egeatmaca/AskTheDB" target="__blank" rel="noreferrer">Source Code</a>
-                <a className="details-btn" onClick={()=>setShowAskTheDB(!showAskTheDB)}> 
+                <button className="details-btn" onClick={()=>setShowAskTheDB(!showAskTheDB)}> 
                     {showAskTheDB ? "^ Details" : "> Details"}
-                </a>
+                </button>
             </p>
             <br />
             <div className="screenshot">
