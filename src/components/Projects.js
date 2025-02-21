@@ -125,7 +125,7 @@ function Projects() {
                 <li>Streamlit</li>
                 <li>SQLAlchemy</li>
             </ul>
-            <p className="project-summary"><b>Natural language database query engine translating your db schema and questions to SQL queries</b></p>
+            <p className="project-summary"><b>Natural language database query engine translating your DB schema and questions to SQL queries</b></p>
             { 
                 showAskTheDB ?
                 <div>
